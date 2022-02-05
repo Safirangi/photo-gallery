@@ -16,8 +16,6 @@
 }
 body {
   background: var(--color2);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 nav {
   list-style: none;
@@ -125,3 +123,18 @@ footer {
     font-size: 4em;
   }
 }
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+  width: 1em;
+}
+::-webkit-scrollbar-track {
+  background: var(--color2);
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color1);
+  border-radius: 0.4em;
+  opacity: 0.6;
+}
+/*Custom Scrollbar*/
+
