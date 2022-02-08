@@ -144,7 +144,7 @@ footer {
   border-radius: 0;
 }
 
-/*Scroll Bar Thumb8/
+/*Scroll Bar Thumb*/
 ::-webkit-scrollbar-thumb {
   background: var(--color1);
   border-radius: 0.4em;
