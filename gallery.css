@@ -120,7 +120,7 @@ footer {
     flex-direction: column;
     margin: auto;
   }
-  .container .box .photo {
+  .gallery .box .photo {
     width: 100%;
     margin: auto;
   }
