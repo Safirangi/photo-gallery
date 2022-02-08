@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
+/*Setting CSS variables for HTML Root Element*/
 :root {
   --font: "Work Sans", sans-serif;
   --color1: #f28482;
@@ -7,6 +8,7 @@
   --color3: #fff;
   --color4: #000;
 }
+/*Style set for all selectors*/
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,8 @@
 body {
   background: var(--color2);
 }
+
+/*Navbar*/
 nav {
   list-style: none;
   text-align: center;
@@ -37,30 +41,21 @@ nav li a:hover {
   transition: background-color 0.5s;
   opacity: 0.8;
 }
+/*Navbar*/
+
+/*Header consisting of h1 and intro para*/
 header {
   text-align: center;
   padding: 1em 4em;
+  width: 90%;
+  margin: auto;
 }
 header h1 {
   font-size: 5em;
 }
-/*.gallery {
-  margin: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-.photo img {
-  height: 15em;
-  width: 24em;
-  margin: 1em 1em 0 1em;
-  border-radius: 0.5em;
-}
-.photo figcaption {
-  text-align: center;
-}*/
+/*Header consisting of h1 and intro para*/
+
+/*Gallery*/
 .gallery {
   display: flex;
   flex-direction: column;
@@ -78,15 +73,19 @@ header h1 {
   display: flex;
   flex-direction: column;
   width: 32.5%;
+  margin: auto;
 }
 .gallery .box .photo figure img {
   width: 100%;
-  margin: 0.5em;
+  margin: 0.5em 0;
   border-radius: 0.5em;
 }
 .photo figcaption {
   margin: 0 0 0 0.5em;
 }
+/*Gallery*/
+
+/*Button*/
 .button {
   margin: 2em auto;
   display: block;
@@ -103,6 +102,9 @@ header h1 {
   transition: background-color 0.5s;
   opacity: 0.8;
 }
+/*Button*/
+
+/*Footer*/
 footer {
   width: 100%;
   text-align: center;
@@ -110,12 +112,17 @@ footer {
   margin: 1em 0 0 0;
   bottom: 0;
 }
+/*Footer*/
+
+/*Media Query for Screens*/
 @media only screen and (max-width: 769px) {
   .gallery .box {
     flex-direction: column;
+    margin: auto;
   }
   .container .box .photo {
     width: 100%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 378px) {
@@ -123,14 +130,21 @@ footer {
     font-size: 4em;
   }
 }
+/*Media Query for Screens*/
+
 /*Custom Scrollbar*/
+/*Scroll Bar Width*/
 ::-webkit-scrollbar {
   width: 1em;
 }
+
+/*Scroll Bar Path*/
 ::-webkit-scrollbar-track {
   background: var(--color2);
   border-radius: 0;
 }
+
+/*Scroll Bar Thumb8/
 ::-webkit-scrollbar-thumb {
   background: var(--color1);
   border-radius: 0.4em;
