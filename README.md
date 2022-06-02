@@ -22,14 +22,8 @@ Created to learn arranging items in a gallery layout using flexbox, using the pi
 - Consists of two anchor links, 'Home' and 'About', which are added in the form of lists, arranged in an *Inline Flex* manner.
 - Anchor links have hover properties of changing color.
 
-### Header
-- Consists of *h1* heading and paragraph.
-
 ### Gallery
 - Each gallery pictures with a caption of date is wrapped in a *div* of class *photo*, which is wrapped in a *div* of class *box*, in turn wrapped in a *section* of class *gallery*.
-
-### Button
-- A 'More' button which connects to 2nd page of gallery.
 
 ### Footer
 - Consists of Credits for photos, and copyrights.
