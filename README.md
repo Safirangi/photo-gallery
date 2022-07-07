@@ -25,8 +25,6 @@ Created to learn arranging items in a gallery layout using flexbox, using the pi
 ### Gallery
 - Each gallery pictures with a caption of date is wrapped in a *div* of class *photo*, which is wrapped in a *div* of class *box*, in turn wrapped in a *section* of class *gallery*.
 
-### Footer
-- Consists of Credits for photos, and copyrights.
 
 
 
